@@ -22,5 +22,4 @@
     "ext-zend-opcache": "*",
     "ext-fileinfo": "*"
   },
-  "minimum-stability": "stable"
 }
