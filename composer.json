@@ -1,5 +1,5 @@
 {
-  "name": "notihnio/php-cactus",
+  "name": "ivan/php-cactus",
   "bin": [
     "bin/cactus"
   ],
@@ -22,19 +22,5 @@
     "ext-zend-opcache": "*",
     "ext-fileinfo": "*"
   },
-  "repositories": [
-        {
-            "type": "path",
-            "url": "../php-cactus",
-            "options": { "symlink": true }
-        }
-    ],
-
-    "require": {
-        "notihnio/php-cactus": "@dev"
-    },
-
-    "prefer-stable": true,
-  
   "minimum-stability": "stable"
 }
