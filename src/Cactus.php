@@ -20,7 +20,7 @@ class Cactus
      */
     private function detectOs(): string
     {
-        return (PHP_OS_FAMILY === "Windows") ? "Windows" : "Unix";
+        return (var_dump(PHP_OS); === "Windows") ? "Windows" : "Linux";
     }
 
     /**
